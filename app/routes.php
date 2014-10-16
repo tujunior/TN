@@ -26,6 +26,7 @@ Route::get('/create',function(){
 });
 Route::get('/test1',function(){
     echo testpack::greeting();
+    echo 'hello';
 	//return 'hello world';
 	
 });
