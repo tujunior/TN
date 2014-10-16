@@ -1,0 +1,23 @@
+{
+    "name": "sukanya/firstpack",
+    "description": "",
+    "authors": [
+        {
+            "name": "Sukanya",
+            "email": "tu.junior.x@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Sukanya\\Firstpack\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
